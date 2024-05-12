@@ -1,16 +1,14 @@
-# Waypoint Smoke Monster
+# GHOST Smoke
 
-![wp-smokemonster-preview](https://github.com/WaypointRP/wp-smokemonster/assets/83190290/7882d926-bd36-4f2d-b72d-c97bd212cb54)
+[Preview Video]()
 
-[Preview Video](https://youtu.be/r97PeiGR7EU)
-
-Waypoint Smoke Monster is a simple script that lets the player become a flying smoke monster. The smoke monster can fly around the map, leaving a trail of smoke behind it. This can be used during Halloween events to scare players or could be used for any other purpose.
+GHOST Smoke is a simple script that lets the player become a flying smoke monster. The smoke monster can fly around the map, leaving a trail of smoke behind it. This can be used during Halloween events to scare players or could be used for any other purpose.
 
 _The smoke monster from the TV show Lost was used as inspiration for this script._ 
 
 # Usage
 
-The smokemonster can be toggled on/off via the `/smokemonster` command or you can trigger it via the `wp-smokemonster:client:ToggleSmokeMonster` event. _The command can only be used by players with the `smokemonster` ace permission._
+The smokemonster can be toggled on/off via the `/vampsmoke` command or you can trigger it via the `ghost_vampsmoke:client:ToggleSmokeMonster` event. _The command can only be used by players with the `vampsmoke` ace permission._
 
 Controls:
 - W/A/S/D: Move forward/backward/left/right
@@ -32,7 +30,7 @@ Resource monitor results:
 # Setup
 1. Enable the script in your server.cfg
 2. Add the ace permission to the server.cfg
-   - Ex: `add_ace group.admin smokemonster allow;`
+   - Ex: `add_ace group.admin vampsmoke allow;`
    - For more info on ace permissions, see: https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917
 3. Choose your framework via `Config.Framework`
     - Framework is only needed for CreateCallback / TriggerCallback.

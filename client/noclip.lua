@@ -284,7 +284,7 @@ ToggleNoClip = function(state)
     end
 end
 
-RegisterNetEvent('wp-smokemonster:client:ToggleNoClip', function()
+RegisterNetEvent('ghost_vampsmoke:client:ToggleNoClip', function()
     ToggleNoClip(not IsNoClipping)
 end)
 

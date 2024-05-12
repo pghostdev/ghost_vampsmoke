@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'Waypoint Smokemonster'
+description 'GHOST VAMP SMOKE'
 version '1.0.0'
 
 shared_script 'shared/*.lua'
